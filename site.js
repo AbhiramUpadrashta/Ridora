@@ -1,0 +1,1 @@
+document.getElementById("yr").textContent=new Date().getFullYear();const io=new IntersectionObserver(e=>e.forEach(t=>{t.isIntersecting&&(t.target.classList.add("in"),io.unobserve(t.target))}),{threshold:.1});document.querySelectorAll(".rv").forEach((e,t)=>{e.style.transitionDelay=(e.closest(".grid,.ways,.faq")?t%4*70:0)+"ms",io.observe(e)});

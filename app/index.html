@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1">
+<title>Ridora — share the ride</title>
+<meta name="description" content="Offer or find rides by car or bike, share a cab or auto, split the cost. Sign up with just your mobile number. Free, by Abhiram Upadrashta. Powered by Bubbles.">
+<meta name="theme-color" content="#07080d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="../img/ridora.svg"><link rel="apple-touch-icon" href="../img/ridora-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css?v=8459e1f">
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
+<div id="view" class="view"></div>
+<nav class="tabbar hidden" id="tabbar">
+  <a href="#home" data-tab="home"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Search</span></a>
+  <a href="#trips" data-tab="trips"><svg class="i" viewBox="0 0 24 24"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h7"/></svg><span>My rides</span></a>
+  <a href="#offer" data-tab="offer" class="pub"><b><svg class="i" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></b><span>Publish</span></a>
+  <a href="#inbox" data-tab="inbox"><svg class="i" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg><span>Inbox</span><em id="badge" class="hidden"></em></a>
+  <a href="#me" data-tab="me"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span>Profile</span></a>
+</nav>
+<div class="toast" id="toast" role="status"></div>
+<script type="module" src="app.js?v=8459e1f"></script>
+</body>
+</html>
