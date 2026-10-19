@@ -1,3 +1,3 @@
-{ "name": "Ridora — share the ride", "short_name": "Ridora", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#07080d", "theme_color": "#07080d",
+{ "name": "Ridora — share the ride", "short_name": "Ridora", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#0b0e1f", "theme_color": "#0b0e1f",
   "description": "Offer or find rides by car or bike, share a cab or auto. Powered by Bubbles.",
   "icons": [ { "src": "../img/ridora-192.png", "sizes": "192x192", "type": "image/png" }, { "src": "../img/ridora-512.png", "sizes": "512x512", "type": "image/png" }, { "src": "../img/ridora-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" } ] }
